@@ -22,3 +22,7 @@ const fareDoubler = function(int) {
 const fareTripler = function(int) {
   return int * 3
 }
+
+function fetchSpecifiedDrivers(drivers, callback) {
+  return callback(drivers)
+}
